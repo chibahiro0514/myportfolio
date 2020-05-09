@@ -14,24 +14,21 @@
 
     <div class="career">
       <ul>
-
        <li>
-          <div class="blank"></div>
           <p class="circle responsive_notpc"></p>
           <span class="txt">
               <p class="term">2006.04 〜 2010.03</p>
               <p class="headline">東京電機大学</p>
-              <p class="description">工学部情報メディア学科在籍。CG, 動画, 音楽のメディアから始まり、ICTに関わる分野を幅広く学ぶ。研究題材は3DCGレンダリングの最適化。</p>
+              <p class="description">工学部情報メディア学科在籍。CG, 動画, 音楽等のメディアから始まり、ICTに関わる分野を幅広く学ぶ。研究題材は3DCGレンダリングの最適化。</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
         <li>
-          <div class="blank"></div>
            <p class="circle responsive_notpc"></p>
            <span class="txt">
               <p class="term">2010.04 〜 2019.08</p>
               <p class="headline">高等学校教員</p>
-              <p class="description">神奈川県教育委員会在籍。数学・情報科目を担当。成績処理システム運営主任、全校生徒学籍管理、行政文書発行等。カリキュラムWGにて教育課程策定（現施行中。）
+              <p class="description">神奈川県教育委員会在籍。数学・情報科目を担当。成績処理システム運営主任、全校生徒学籍管理、行政文書発行等。カリキュラムWGにて教育課程策定(2020年度現在施行中。)
               </p>
           </span>
           <p class="circle responsive_pc"></p>
@@ -158,8 +155,6 @@
     transform: translate(-13.5px,0);
   }
 
-@media (max-width: 1020px) and (min-width: 768px) { }
-
 @media (max-width: 767px) { 
 
   table{
@@ -171,11 +166,11 @@
   }
 
  .career ul li .txt {
-      width: 100%;
-      border-right: none;
-      margin: 0;
-      padding: 10px;
-    }
+    width: 100%;
+    border-right: none;
+    margin: 0;
+    padding: 10px;
+  }
 
   .headline{
     font-size: 24px;

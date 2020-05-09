@@ -119,9 +119,6 @@ h3{
   display: none;
 }
 
-
-@media (max-width: 1020px) and (min-width: 768px) { }
-
 @media (max-width: 767px) { 
   .menubar{
     margin:0 auto;

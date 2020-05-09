@@ -4,26 +4,26 @@
         
         <ul class="portfolios">
 
-          <li class="card">
-            <img class="card-img" src="../assets/images/kanto-hamachacha_card.jpg"  alt="関東ハマチャチャ同好会キャプチャ">
-            <div class="card-content">
-              <h1 class="card-title jp">所属ダンスチーム公式サイト</h1>
-              <p class="card-text">Webマーケティングからの観点も組み込む。</p>
-              <p class="card-lang">Languages : HTML, CSS, JavaScript, PHP</p>
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/kanto-hamachacha_panel.jpg"  alt="関東ハマチャチャ同好会キャプチャ">
+            <div class="panel-content">
+              <p class="panel-title">所属ダンスチーム公式サイト</p>
+              <p class="panel-text">Webマーケティングの知識も応用。</p>
+              <p class="panel-lang">Languages : HTML, CSS, JS, PHP</p>
               <br>
-              <a href="https://www.kanto-hamachacha.com/" class="card-link">Website</a>
-              <a href="https://github.com/chibahiro0514/kanto-hamachacha" class="card-link github-link">Github</a>
+              <a href="https://www.kanto-hamachacha.com/" class="panel-link">Website</a>
+              <a href="https://github.com/chibahiro0514/kanto-hamachacha" class="panel-link github-link">Github</a>
             </div>
           </li>
 
-          <li class="card">
-            <img class="card-img" src="../assets/images/chibahiroportfolio2.png"  alt="ここにはポートフォリオ入れたい">
-            <div class="card-content">
-              <h1 class="card-title jp">ポートフォリオサイト</h1>
-              <p class="card-text">こちらのサイト、Vue.jsを用いて作成。</p>
-              <p class="card-lang">Languages : HTML, CSS, JavaScript(Vue.js)</p>
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/portfolio_panel.png"  alt="ポートフォリオ">
+            <div class="panel-content">
+              <p class="panel-title">ポートフォリオサイト</p>
+              <p class="panel-text">当サイト、Vue.jsを用いて作成。</p>
+              <p class="panel-lang">Languages : HTML, CSS, JS(Vue.js)</p>
               <br>
-              <a href="https://github.com/chibahiro0514/myportfolio" class="card-link github-link">Github</a>
+              <a href="https://github.com/chibahiro0514/myportfolio" class="panel-link github-link">Github</a>
             </div>
           </li>
 
@@ -33,85 +33,80 @@
 </template>
 
 <style>
-.portfolios-wrapper{
-  text-align:center;
-}
+  .portfolios-wrapper{
+    text-align:center;
+  }
 
-.portfolios{
-  list-style-type: none;
-  padding-left: 0;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align:center;
-}
+  .portfolios{
+    list-style-type: none;
+    padding-left: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align:center;
+  }
 
-.jp{
-  font-weight: 100;
-}
+  .panel-lang{
+    font-weight: 500;
+  }
 
-.card-lang{
-  font-weight: 500;
-}
+  .panel {
+    display: inline-block;
+    margin: 30px 45px;
+    width: 350px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+  }
 
-.card {
-  display: inline-block;
-  margin: 30px 45px;
-  width: 350px;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px #ccc;
-}
+  .panel-img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px #ccc;
+  }
 
-.card-img {
-  border-radius: 5px 5px 0 0;
-  width: 100%;
-  height: auto;
-  border-bottom: solid 1px #ccc;
-}
+  .panel-content {
+    padding: 20px;
+  }
 
-.card-content {
-  padding: 20px;
-}
+  .panel-title {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
 
-.card-title {
-  font-size: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #333;
-}
+  .panel-text {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
-.card-text {
-  color: #777;
-  font-size: 14px;
-  line-height: 1.5;
-}
+  .panel-link{
+    border: 1px solid #00aaff;
+    text-decoration: none;
+    color: #00aaff;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
 
-.card-link{
-  border: 1px solid #00aaff;
-  text-decoration: none;
-  color: #00aaff;
-  margin: 0 10px;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
+  .panel-link:hover {
+    font-weight: 700;
+  }
 
-.card-link:hover {
-  font-weight: 700;
-}
+  .github-link{
+    border-color: #171515;
+    color: #171515;
+  }
 
-.github-link{
-  border-color: #171515;
-  color: #171515;
-}
+  @media (max-width: 767px) { 
 
-@media (max-width: 1020px) and (min-width: 768px) { }
-
-@media (max-width: 767px) { 
-
-  .card {
-    margin: 30px 0px;
-    width: 320px;
-}
+    .panel {
+      margin: 30px 0px;
+      width: 320px;
+  }
 
 }
 

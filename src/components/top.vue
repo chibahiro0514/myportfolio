@@ -2,8 +2,8 @@
 
   <div id="top-wrapper">
     <div class="top_images">
-      <img src="../assets/bgimage.jpeg" alt="Nagai's portfolio website's top image" class="responsive_pc">
-      <img src="../assets/bgimage_responsive.jpeg" alt="Nagai's portfolio website's top image to responsive" class="responsive_notpc">
+      <img src="../assets/images/bgimage.jpeg" alt="Nagai's portfolio website's top image" class="responsive_pc">
+      <img src="../assets/images/bgimage_responsive.jpeg" alt="Nagai's portfolio website's top image to responsive" class="responsive_notpc">
     </div>
 
       <div id="main-title">
@@ -81,8 +81,6 @@ h1 .resopnsive_notpc{
   width: 100%;
   height: 100%;
 }
-
-@media (max-width: 1020px) and (min-width: 768px) { }
 
 @media (max-width: 767px) { 
 

@@ -4,20 +4,20 @@
 
     <div class="quolifications">
       <h3>- Quolifications -</h3>
-      <figure><img src="../assets/images/MOS_Word.png" alt="MOS_Word"><figcaption>MOS Word</figcaption></figure>
-      <figure><img src="../assets/images/MOS_Excel.png" alt="MOS_Excel"><figcaption>MOS Excel</figcaption></figure>
-      <figure><img src="../assets/images/FE.gif" alt="Fundamental_Engineer"><figcaption>基本情報技術者</figcaption></figure>
-      <figure><img src="../assets/images/Oracle_bronze.png" alt="Oracle_Bronze"><figcaption>Oracle Bronze</figcaption></figure>
+      <figure><img src="../assets/images/skills/MOS_Word.png" alt="MOS_Word"><figcaption>MOS Word</figcaption></figure>
+      <figure><img src="../assets/images/skills/MOS_Excel.png" alt="MOS_Excel"><figcaption>MOS Excel</figcaption></figure>
+      <figure><img src="../assets/images/skills/FE.gif" alt="Fundamental_Engineer"><figcaption>基本情報技術者</figcaption></figure>
+      <figure><img src="../assets/images/skills/Oracle_bronze.png" alt="Oracle_Bronze"><figcaption>Oracle Bronze</figcaption></figure>
     </div>
 
     <div class="languages">
       <h3>- Languages -</h3>
-      <figure><img src="../assets/images/html.png" alt="html"><figcaption>HTML</figcaption></figure>
-      <figure><img src="../assets/images/css.png" alt="css"><figcaption>CSS</figcaption></figure>
-      <figure><img src="../assets/images/JS.png" alt="JavaScript"><figcaption>JavaScript</figcaption></figure>
-      <figure><img src="../assets/images/vue.png" alt="Vue.js"><figcaption>Vue.js</figcaption></figure>
-      <figure><img src="../assets/images/git2.png" alt="git"><figcaption>Git</figcaption></figure>
-      <figure><img src="../assets/images/github2.png" alt="GitHub"><figcaption>GitHub</figcaption></figure>
+      <figure><img src="../assets/images/skills/html.png" alt="html"><figcaption>HTML</figcaption></figure>
+      <figure><img src="../assets/images/skills/css.png" alt="css"><figcaption>CSS</figcaption></figure>
+      <figure><img src="../assets/images/skills/JS.png" alt="JavaScript"><figcaption>JavaScript</figcaption></figure>
+      <figure><img src="../assets/images/skills/vue.png" alt="Vue.js"><figcaption>Vue.js</figcaption></figure>
+      <figure><img src="../assets/images/skills/git.png" alt="git"><figcaption>Git</figcaption></figure>
+      <figure><img src="../assets/images/skills/github.png" alt="GitHub"><figcaption>GitHub</figcaption></figure>
     </div>
     
   </div>
@@ -47,8 +47,6 @@
     width: 70px;
     height: 70px;
   }
-
-  @media (max-width: 1020px) and (min-width: 768px) { }
 
   @media (max-width: 767px) { 
 
